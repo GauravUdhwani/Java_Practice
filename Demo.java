@@ -1,14 +1,25 @@
-class Demo 
-{
-	public static void main(String[] args) 
+package Methods;
+
+public class Demo {
+	
+	public static void eat()
 	{
-		int a = 1;
-		int b = 5;
-		
-		while (a<=b)
-		{
-		   System.out.println(a);
-		   a++;
-		}
+		System.out.println("Eating");
 	}
+	
+	public static void walk()
+	{
+		System.out.println("Walking");
+	}
+	
+
+	public static void main(String[] args) {
+		System.out.println("Main start");
+		eat();
+		walk();
+		System.out.println("Main end");
+		// TODO Auto-generated method stub
+
+	}
+
 }
